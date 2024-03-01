@@ -244,7 +244,7 @@ option {
   color: white;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 1000px) {
   .Lower_Outer_Wrapper {
     display: none;
   }
