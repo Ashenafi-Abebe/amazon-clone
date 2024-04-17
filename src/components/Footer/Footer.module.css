@@ -79,7 +79,8 @@
 .footer_logo img {
   width: 100%;
   object-fit: contain;
-  height: 30px;
+  height: 25px;
+  padding: 1px;
 }
 
 .ft_footer a:nth-child(2) .ft_footer a:nth-child(4) {
@@ -91,18 +92,29 @@
 
 .footer_language img {
   width: 15%;
+  padding-bottom: 15px;
+}
+
+.footer_language {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgb(142, 136, 136);
 }
 
 .ft_footer a:nth-child(2),
 .ft_footer a:nth-child(3),
 .ft_footer a:nth-child(4) {
   border: 1px solid rgb(142, 136, 136);
-  padding: 10px 20px;
+  padding: 25px 7px;
   border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 576px) {
   .footer_container {
-    display: none;
+    display: flex;
   }
 }
